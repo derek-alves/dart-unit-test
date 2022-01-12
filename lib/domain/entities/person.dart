@@ -20,6 +20,6 @@ class Person {
   }
 
   bool get isOlder {
-    return age > 18;
+    return age >= 18;
   }
 }
